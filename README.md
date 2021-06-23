@@ -5,6 +5,10 @@ You need Python 3.8 or newer installed on your device. Check if you already have
 
 On Windows, open command prompt, type `dir %LOCALAPPDATA%\Programs\Python` and hit enter
 On Mac, open terminal, type `python -V` and hit enter
-On Linux, open terminal, type `ll /usr/bin/python*` and hit enter
+On Linux, open terminal, type `ls -l /usr/bin/python*` and hit enter
 
-If you do not see `python 3.8*+`, then you do not have it installed and need to do so from `python.org`.
+If you do not see `python 3.8*+`, then you do not have it installed and need to do so from `python.org` or install from your package manager on linux.
+
+### Ubuntu
+
+`apt install python`
